@@ -1,6 +1,6 @@
-import './WarnWarningTextingIcon.css'; 
+import './WarningText.css'; 
 
-function WarningText(){
+function WarningText(props){
     return (
         <p className={"WarningText" + props.className}>
             {props.text}

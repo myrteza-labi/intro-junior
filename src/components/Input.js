@@ -1,6 +1,6 @@
 import './Input.css'; 
 
-function Input(){
+function Input(props){
     return (
         <input  className={"Input " + props.className}
                 type={props.type}

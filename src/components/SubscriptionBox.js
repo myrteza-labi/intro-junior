@@ -1,8 +1,13 @@
 import './SubscriptionBox.css'; 
+import SubscriptionButton from './SubscriptionButton'; 
+import Terms from './Terms'; 
 
 function SubscriptionBox(){
     return (
-        <div className="SubscriptionBox" ></div>
+        <div className="SubscriptionBox" >
+            <SubscriptionButton/>
+            <Terms/>
+        </div>
     )
 }
 

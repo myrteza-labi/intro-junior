@@ -1,6 +1,6 @@
 import './WarningIcon.css'; 
 
-function WarningIcon(){
+function WarningIcon(props){
     return (
         <div className={"WarningIcon" + props.className}></div>
     )
