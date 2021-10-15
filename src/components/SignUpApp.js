@@ -7,8 +7,10 @@ function SignUpApp(){
     return (
         <div className="SignUpApp">
             <TextIntroduction/>
-            <AdvertisingBanner/>
-            <Form/>
+            <div className="bannerAndFormContainer" >
+                <AdvertisingBanner/>
+                <Form/>
+            </div>
         </div>
     )
 }

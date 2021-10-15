@@ -1,0 +1,14 @@
+.Input{
+    height: 55px; 
+    padding: 15px 20px; 
+    margin: 16px 0 0 0; 
+}
+
+
+/*   desktop style   */
+@media screen and (min-width: 1440px){
+    .Input{
+        padding: 15px 32px; 
+        margin: 35px 0 0 0; 
+    }
+}

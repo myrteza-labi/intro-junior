@@ -1,0 +1,22 @@
+.InputBox{
+    position: relative; 
+    display: flex;
+    flex-direction: column; 
+}
+.InputBox:first-of-type .Input{
+    margin: 0; 
+}
+
+/* to adjust the fisrt warning icon inside the first Input component displayed.
+The rest of the icon style is on the "WarningIcon.css" file */
+.InputBox:first-of-type .WarningIcon{
+    top: 15px;  
+}
+
+
+/*   desktop style   */
+@media screen and (min-width: 1440px){
+    .InputBox:first-of-type .Input{
+        margin: 0; 
+    }
+}

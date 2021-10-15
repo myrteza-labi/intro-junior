@@ -1,0 +1,10 @@
+.SubscriptionBox{
+    margin: 16px 0 24px 0; 
+}
+
+/*   desktop style   */
+@media screen and (min-width: 1440px){
+    .SubscriptionBox{
+        margin: 20px 0 40px 0; 
+    }
+}

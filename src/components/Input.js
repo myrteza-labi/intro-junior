@@ -6,8 +6,8 @@ function Input(props){
                 type={props.type}
                 name={props.name}
                 placeholder={props.placeholder}
-                maxLenght={props.maxLenght}
-                minLength={props.minLength}
+                maxlenght={props.maxLenght}
+                minlenght={props.minLength}
                 />
     )
 }

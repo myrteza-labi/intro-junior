@@ -3,12 +3,19 @@ import Input from './Input';
 import WarningIcon from './WarningIcon'; 
 import WarningText from './WarningText'; 
 
-function InputBox(){
+function InputBox(props){
     return (
         <div className="InputBox" >
-            <Input/>
-            <WarningIcon/>
-            <WarningText/>
+
+            <Input  className={props.inputClassname}
+                    type={props.type}
+                    name={props.name}
+                    placeholder={props.placeholder}
+                    maxLenght={props.maxLenght}
+                    minLength={props.minLength}/>
+
+            <WarningIcon className={props.warningIconClassname}/>
+            <WarningText className={props.warningTextClassname} warningText={props.warningText}/>
         </div>
     )
 }

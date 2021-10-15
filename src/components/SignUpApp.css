@@ -1,0 +1,30 @@
+.SignUpApp{
+    width: 375px; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 0 24px; 
+    background-color: rgb(255, 121, 121); 
+    background-image: url("../images/bg-intro-mobile.png"); 
+}
+
+.bannerAndFormContainer{
+    display: flex; 
+    flex-direction: column; 
+    margin: 64px 0 70px 0; 
+}
+
+/*   desktop style   */
+@media screen and (min-width: 1440px){
+    .SignUpApp{
+        width: 1440px; 
+        min-height: 800px; 
+        flex-direction: row; 
+        padding: 0 165px; 
+        align-items: center; 
+        justify-content: space-between; 
+    }
+    .bannerAndFormContainer{
+        margin: 0; 
+        width: 540px; 
+    }
+}

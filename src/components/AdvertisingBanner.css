@@ -1,0 +1,15 @@
+.AdvertisingBanner{
+    height: 90px; 
+    background-color: rgba(94, 84, 164, 1); 
+    border-radius: 10px; 
+    padding: 18px 66px; 
+}
+
+/*   desktop style   */
+@media screen and (min-width: 1440px){
+    .AdvertisingBanner{
+        height: 60px;  
+        padding: 17px 112px; 
+
+    }
+}
