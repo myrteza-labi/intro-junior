@@ -1,9 +1,23 @@
 .TextIntroduction{
     margin: 90px 0 0 0; 
 }
+.textIntroductionTitle{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
 
 .textIntroductionText{
     margin: 16px 0 0 0; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9; 
 }
 
 /*   desktop style   */
@@ -12,7 +26,17 @@
         margin: 0; 
         width: 525px; 
     }
-    .textIntroductionText{
-        margin: 10px 0 0 0; 
+    .textIntroductionTitle{
+        font-size: 50px; 
+        font-weight: 600; 
+        line-height: 55px; 
+        letter-spacing: 0.5px; 
+        text-align: left; 
     }
+    .textIntroductionText{
+        margin: 20px 0 0 0; 
+        text-align: left; 
+    }
+    
 }
+

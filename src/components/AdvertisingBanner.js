@@ -4,9 +4,8 @@ function AdvertisingBanner(){
     return (
         <div className="AdvertisingBanner" >
             <p className="advertisingBannerText" >
-                Try it free 7 days then $20/mo. thereafter
-                <span className="advertisingBannerTextPart2" >
-                    then $20/mo. thereafter
+                Try it free 7 days 
+                <span className="advertisingBannerTextPart2" > then $20/mo. thereafter
                 </span>
             </p>
         </div>

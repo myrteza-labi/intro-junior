@@ -3,13 +3,24 @@
     background-color: rgba(94, 84, 164, 1); 
     border-radius: 10px; 
     padding: 18px 66px; 
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.30px;
+    color: #FFFFFF;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 }
+
+.advertisingBannerTextPart2{
+    font-weight: 200;
+}
+
 
 /*   desktop style   */
 @media screen and (min-width: 1440px){
     .AdvertisingBanner{
         height: 60px;  
-        padding: 17px 112px; 
-
+        padding: 17px 112px;
     }
 }
