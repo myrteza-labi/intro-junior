@@ -2,7 +2,7 @@ import './WarningIcon.css';
 
 function WarningIcon(){
     return (
-        <div className="WarningIcon" ></div>
+        <div className={"WarningIcon" + props.className}></div>
     )
 }
 

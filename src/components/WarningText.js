@@ -2,8 +2,8 @@ import './WarnWarningTextingIcon.css';
 
 function WarningText(){
     return (
-        <p className="WarningText">
-            
+        <p className={"WarningText" + props.className}>
+            {props.text}
         </p>
     )
 }
