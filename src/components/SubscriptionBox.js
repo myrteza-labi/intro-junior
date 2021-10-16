@@ -2,10 +2,10 @@ import './SubscriptionBox.css';
 import SubscriptionButton from './SubscriptionButton'; 
 import Terms from './Terms'; 
 
-function SubscriptionBox(){
+function SubscriptionBox(props){
     return (
         <div className="SubscriptionBox" >
-            <SubscriptionButton/>
+            <SubscriptionButton onClick={props.onClick}/>
             <Terms/>
         </div>
     )

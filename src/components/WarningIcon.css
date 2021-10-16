@@ -1,6 +1,6 @@
 .WarningIcon{
-    height: 24px; 
-    width: 24px;  
+    height: 0; 
+    width: 0;  
     position: absolute; 
     top: 32px;
     right: 16px; 
@@ -10,6 +10,6 @@
 /*   desktop style   */
 @media screen and (min-width: 1440px){
     .WarningIcon{
-        top: 50px; 
+        top: 36px; 
     }
 }

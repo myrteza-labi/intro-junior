@@ -1,0 +1,95 @@
+
+class Form extends React.Component{
+    constructor(props){
+        super(props); 
+        this.state = {
+            errorState1 : true, 
+            errorState2 : true,
+            errorState3 : true,
+            errorState4 : true,
+        }
+    }
+    render(){
+        return (
+            <div  className="Form" >
+    
+                <InputBox   
+                            /*inputClassname={""}
+                            warningIconClassname={"w"}
+                            warningTextClassname={""}*/
+                            type={"text"}
+                            name={"firstname"}
+                            placeholder={"First Name"}
+                            maxLenght={"40"}
+                            minLength={"2"}
+                            warningText={
+                                "First Name cannot be empty"
+                            }/>
+    
+                <InputBox   /*inputClassname={""}
+                            warningIconClassname={"w"}
+                            warningTextClassname={""}*/
+                            type={"text"}
+                            name={"lastname"}
+                            placeholder={"Last Name"}
+                            maxLenght={"40"}
+                            minLength={"2"}
+                            warningText={
+                                "Last Name cannot be empty"
+                            }/>
+    
+                <InputBox   /*inputClassname={""}
+                            warningIconClassname={"w"}
+                            warningTextClassname={""}*/
+                            type={"email"}
+                            name={"email"}
+                            placeholder={"Email Address"}
+                            maxLenght={"62"}
+                            minLength={"10"}
+                            warningText={
+                                "Looks like this is not an email"
+                            }/>
+    
+                <InputBox   /*inputClassname={""}
+                            warningIconClassname={"w"}
+                            warningTextClassname={""}*/
+                            type={"password"}
+                            name={"password"}
+                            placeholder={"Password"}
+                            maxLenght={"60"}
+                            minLength={"8"}
+                            warningText={
+                                "Looks like this is not an email"
+                            }/>
+                <SubscriptionBox />
+                </div>)}}
+                
+class InputBox extends React.Component {
+    constructor(props){
+        super(props); 
+        this.state = {
+            isNormal : true,
+        }
+    }
+    render(){
+        return (<div className="InputBox" >
+                <Input  
+                        className={this.props.inputClassname} type={this.props.type} name={this.props.name}
+                        placeholder={this.props.placeholder} maxLenght={this.props.maxLenght}
+                        minLength={this.props.minLength}/>
+                        </div> )}}
+
+function Input(props){
+    return (
+        <input  className={"Input " + props.className} type={props.type} name={props.name}
+                placeholder={props.placeholder} maxlenght={props.maxLenght} minlenght={props.minLength}/>)}
+
+function SubscriptionBox(props){
+    return (<div className="SubscriptionBox" >
+            <SubscriptionButton/>
+        </div> )}
+
+function SubscriptionButton(props){
+    return ( <button  className="SubscriptionButton" >
+            CLAIM YOUR FREE TRIAL
+        </button>)}

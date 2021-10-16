@@ -7,6 +7,23 @@
     margin: 0; 
 }
 
+
+.InputBoxError .Input{
+    border: 2px solid #FF7979;
+}
+
+.InputBoxError .WarningIcon{
+    height: 24px; 
+    width: 24px;  
+}
+
+.InputBoxError .WarningText{
+    display: block;
+}
+
+
+
+
 /* to adjust the fisrt warning icon inside the first Input component displayed.
 The rest of the icon style is on the "WarningIcon.css" file */
 .InputBox:first-of-type .WarningIcon{

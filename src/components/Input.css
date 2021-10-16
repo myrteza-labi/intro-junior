@@ -5,6 +5,10 @@
     border-radius: 5px; 
     border: 1px solid #DEDEDE; 
 }
+.Input:focus{
+    outline: none; 
+}
+
 .Input::placeholder{
     font-family: 'Poppins', sans-serif;    
     font-weight: 500; 

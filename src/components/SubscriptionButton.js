@@ -1,8 +1,8 @@
 import './SubscriptionButton.css'; 
 
-function SubscriptionButton(){
+function SubscriptionButton(props){
     return (
-        <button className="SubscriptionButton" >
+        <button onClick={props.onClick} className="SubscriptionButton" >
             CLAIM YOUR FREE TRIAL
         </button>
     )
