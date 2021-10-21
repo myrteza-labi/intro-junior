@@ -2,7 +2,8 @@ import './Input.css';
 
 function Input(props){
     return (
-        <input  onChange={props.onChange}
+        <input  number={props.number}
+                onChange={props.onChange}
                 className={"Input " + props.className}
                 type={props.type}
                 name={props.name}

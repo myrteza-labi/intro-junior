@@ -16,9 +16,11 @@ class InputBox extends React.Component {
 
     render(){
         return (
-            <div className={"InputBox " + this.props.className} >
+            <div  className={"InputBox " + this.props.className} >
     
-                <Input  onChange={this.props.onChange}
+                <Input  number={this.props.number}
+                        dataNumber={this.props.dataNumber}
+                        onChange={this.props.onChange}
                         className={this.props.inputClassname}
                         type={this.props.type}
                         name={this.props.name}
